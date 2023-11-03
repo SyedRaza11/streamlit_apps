@@ -22,7 +22,7 @@ def load_data(file_path):
       df['Month'] = df['Date'].dt.month
       return df
 # Load the data
-file_path = r'C:\Users\123\Desktop\vs_file\data\oct_sales.csv'
+file_path = r'oct_sales.csv'
 df = load_data(file_path)
 
 
