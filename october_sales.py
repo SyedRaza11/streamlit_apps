@@ -22,12 +22,9 @@ def load_data(file_path):
       df['Month'] = df['Date'].dt.month
       return df
 # Load the data
-file_path = r'C:\Users\123\Desktop\vs_file\oct_sales.csv'
+file_path = r'C:\Users\123\Desktop\vs_file\data\oct_sales.csv''
 df = load_data(file_path)
 
-# Load the data
-file_path = r'C:\Users\123\Desktop\vs_file\oct_sales.csv'
-df = load_data(file_path)
 
 # Create a dropdown for selecting agent names
 agent_options = ["All Agents"] + list(df['Agent'].unique())
